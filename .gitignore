@@ -1,0 +1,23 @@
+# --- SEGURANÇA ---
+# Ignora o arquivo que contém a sua chave de API do Gemini
+config.js
+.env
+
+# --- ARQUIVOS DE SISTEMA E EDITOR ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- LOGS E CACHE ---
+*.log
+node_modules/
+dist/
+build/
+
+# --- ARQUIVOS DE COMPILAÇÃO ---
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
