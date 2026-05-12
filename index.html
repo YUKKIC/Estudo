@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo Maker Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="tema-claro">
+
+    <div class="container">
+        <section class="editor">
+            <div class="header-editor">
+                <h2>Estudo Maker</h2>
+                <p>Otimize seus estudos com IA</p>
+            </div>
+            
+            <div class="input-group">
+                <label>Título do Estudo</label>
+                <input type="text" id="inputTitulo" placeholder="Ex: Fotossíntese">
+            </div>
+
+            <div class="input-group">
+                <label>Suas Anotações</label>
+                <textarea id="inputConteudo" placeholder="Cole seu texto aqui..."></textarea>
+            </div>
+            
+            <div class="input-group">
+                <label>Identidade Visual</label>
+                <select id="selectTema">
+                    <option value="tema-claro">☀️ Clássico Claro</option>
+                    <option value="tema-escuro">🌙 Estudo Noturno</option>
+                    <option value="tema-cyberpunk">👾 Cyberpunk 2077</option>
+                    <option value="tema-papel">📜 Pergaminho Antigo</option>
+                    <option value="tema-neon">🧪 Bio-Luminescence</option>
+                </select>
+            </div>
+
+            <div class="btn-group">
+                <button class="btn-ia" id="btnIA">🤖 Otimizar com IA</button>
+                <button class="btn-full" id="btnFull">🖥️ Foco Total</button>
+            </div>
+        </section>
+
+        <section class="preview-container" id="areaPreview">
+            <article id="siteGerado">
+                <h1 id="displayTitulo">Título do Estudo</h1>
+                <div id="displayConteudo">
+                    Seu conteúdo aparecerá aqui...
+                </div>
+            </article>
+        </section>
+    </div>
+    <script src="config.js"></script> 
+    
+    <script src="script.js"></script>
+</body>
+</body>
+</html>
